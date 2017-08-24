@@ -1,7 +1,3 @@
-package io.github.marzgra.hackerrank._30daysofcode;
-
-import java.util.Scanner;
-
 /*
 TASK:
     save a line of input from stdin to a variable, print "Hello, World." on a single line,
@@ -14,6 +10,9 @@ SAMPLE OUTPUT:
     Hello, World.
     Welcome to 30 Days of Code!
 */
+package marzgra.hackerrank._30daysofcode;
+
+import java.util.Scanner;
 
 public class Day0 {
     public static void main(String[] args) {

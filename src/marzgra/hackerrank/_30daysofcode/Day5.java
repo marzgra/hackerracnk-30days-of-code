@@ -17,7 +17,7 @@ SAMPLE OUTPUT:
     2 x 9 = 18
     2 x 10 = 20
  */
-package io.github.marzgra.hackerrank._30daysofcode;
+package marzgra.hackerrank._30daysofcode;
 
 import java.util.Scanner;
 

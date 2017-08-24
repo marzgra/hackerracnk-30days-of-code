@@ -13,7 +13,7 @@ SAMPLE OUTPUT:
     Hce akr
     Rn ak
  */
-package io.github.marzgra.hackerrank._30daysofcode;
+package marzgra.hackerrank._30daysofcode;
 
 import java.util.Scanner;
 
@@ -25,16 +25,15 @@ public class Day6 {
         scan.nextLine();
 
         for (int i = 0; i < n; i++) {
-            String odd = new String();
-            String even = new String();
+            StringBuilder odd = new StringBuilder();
+            StringBuilder even = new StringBuilder();
 
             String input = scan.nextLine();
             for (int j = 0; j < input.length(); j++) {
-                if (j % 2 == 0) even += input.charAt(j);
-                else odd += input.charAt(j);
+                if (j % 2 == 0) even.append(input.charAt(j));
+                else odd.append(input.charAt(j));
             }
             System.out.println(even + " " + odd);
         }
-
     }
 }

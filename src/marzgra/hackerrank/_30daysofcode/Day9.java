@@ -7,15 +7,14 @@ SAMPLE INPUT
 SAMPLE OUTPUT
     6
  */
-package io.github.marzgra.hackerrank._30daysofcode;
+package marzgra.hackerrank._30daysofcode;
 
 import java.util.Scanner;
 
 public class Day9 {
-    private static int factorial(int n){
+    private static int factorial(int n) {
         int result = 1;
-        if (n <= 1)
-            return result;
+        if (n <= 1) return result;
         else {
             for (int i = n; i >= 1; i--) {
                 result *= i;
@@ -28,6 +27,5 @@ public class Day9 {
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
         System.out.print(factorial(number));
-
     }
 }

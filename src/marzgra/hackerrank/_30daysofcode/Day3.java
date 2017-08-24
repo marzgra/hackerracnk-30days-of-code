@@ -1,8 +1,3 @@
-package io.github.marzgra.hackerrank._30daysofcode;
-
-
-import java.util.Scanner;
-
 /*
 TASK:
     Given an integer, n, perform the following conditional actions:
@@ -21,6 +16,10 @@ SAMPLE OUTPUT:
     Not Weird
 
  */
+package marzgra.hackerrank._30daysofcode;
+
+import java.util.Scanner;
+
 public class Day3 {
 
     public static void main(String[] args) {
@@ -29,7 +28,5 @@ public class Day3 {
         scan.close();
 
         System.out.println(((n % 2 == 1) || (n >= 6 && n <= 20)) ? "Weird" : "Not Weird");
-
     }
-
 }

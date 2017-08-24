@@ -10,7 +10,7 @@ SAMPLE OUTPUT:
 EXPLANATION:
     13 (base-10) = 1101 (base-2)
  */
-package io.github.marzgra.hackerrank._30daysofcode;
+package marzgra.hackerrank._30daysofcode;
 
 import java.util.Scanner;
 
@@ -36,5 +36,4 @@ public class Day10 {
         int n = scan.nextInt();
         System.out.println(maxOnesInBinary(n));
     }
-
 }

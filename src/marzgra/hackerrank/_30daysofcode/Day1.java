@@ -1,7 +1,3 @@
-package io.github.marzgra.hackerrank._30daysofcode;
-
-import java.util.Scanner;
-
 /*
 TASK:
     Declare  variables: one of type int, one of type double, and one of type String.
@@ -22,6 +18,9 @@ SAMPLE OUTPUT:
     HackerRank is the best place to learn and practice coding!
 
  */
+package marzgra.hackerrank._30daysofcode;
+
+import java.util.Scanner;
 
 public class Day1 {
     public static void main(String[] args) {

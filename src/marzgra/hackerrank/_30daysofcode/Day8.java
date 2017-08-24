@@ -18,7 +18,7 @@ SAMPLE OUTPUT:
     Not found
     harry=12299933
  */
-package io.github.marzgra.hackerrank._30daysofcode;
+package marzgra.hackerrank._30daysofcode;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -27,10 +27,12 @@ import java.util.Scanner;
 public class Day8 {
 
     private static Scanner in = new Scanner(System.in);
-    private static void getNumberOfAPerson(Map myMap){
+
+    private static void getNumberOfAPerson(Map myMap) {
         String s = in.next();
         System.out.println(myMap.containsKey(s) ? s + "=" + myMap.get(s) : "Not found");
     }
+
     public static void main(String[] args) {
         int n = in.nextInt();
         Map<String, Integer> myMap = new HashMap<>();
